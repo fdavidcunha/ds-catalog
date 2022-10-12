@@ -1,9 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from 'pages/Home';
+import Router from 'Routes';
 
-const App = () => {
-  return <Home />;
-};
+function App() {
+  return (
+    <Router />
+  );
+}
 
 export default App;
